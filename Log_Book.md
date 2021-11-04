@@ -2,7 +2,7 @@
 
 This file contains all the things I will learn during this journey. The data provided here is present throughout my code as comments, as it is where I jot them down while coding. I will try to put them up on my Django blog site when it gets ready for deployment.
 
-## Day 1
+## Update: 1
 
 To start writing an RTOS, I'll need an IDE to make my life way less stressful. I go with AMD KIEL MDK (u vision), as it provides me the documentation of the ARM chipset. The documentation will come in handy when configuring the GPIO pins and seeing which register maps to which bus and all bits you need to flip to enable said pins.
 
@@ -22,3 +22,7 @@ for some reason, ST decided to remove the schematic for the board, but I managed
 * PD15- blue
 
 I will try to develop a complete board support package that should automate this.
+
+## Update 2
+
+My initial try to figure things on the go has proven inefficient, and reading through the manual does speed things up but again puts me in a pickle when I have a conceptual doubt. I am thinking of taking NPTL's course on embedded system design using ARM, which should clear things further. I hope to get enough info to understand how the debugger works and how I can run a scheduling algorithm.
